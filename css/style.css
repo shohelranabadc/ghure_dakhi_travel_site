@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma, Verdana, sans-serif;
+    background-color:aliceblue;
+}
+
+/* header section start */
+#header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/header_background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: #0008;
+    line-height: 80px;
+    position: relative;
+    overflow: hidden
+}
+
+nav img {
+    cursor: pointer;
+    float: left;
+    margin: 0px 20px;
+}
+
+
+.site_name {
+    width: 200px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 36px;
+    float: left;
+}
+
+nav ul {
+    float: right;
+    margin-right: 30px;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    
+}
+
+nav ul li:hover {
+    background-color: #111;
+    transition: 0.8s all;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 20px
+}
+
+
+
+
+/* header section end */
+
+
+/* main content start */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.main_section {
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.box {
+    float: left;
+    width: 31.8%;
+    padding: 15px;
+    margin: 0px 10px 10px 10px;
+    box-shadow: 2px 2px 5px grey;
+  }
+  
+  .box img {
+      width: 100%;
+  }
+
+ .box > h1 > a{
+     text-decoration: none;
+ }
+
+/* main content end */
+
+
+
+/* Footer section start */
+footer {
+    width: 100%;
+    height: 120px;
+    background-color: #080000;
+    color: #fff;
+    text-align: center;
+    line-height: 120px;
+}
+
+
+/* Footer section end */
+
+
